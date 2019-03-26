@@ -134,7 +134,7 @@ adb devices
 
 　　結果發現使用TCP/IP連線的裝置，他們的&lt;device\_id&gt;都被轉換成&lt;ip\_address&gt;:&lt;port\_number&gt;。也就是說當我們需要執行某些ADB指令到指定裝置上，只需要把&lt;ip\_address&gt;:&lt;port\_number&gt;取代&lt;device\_id&gt;，ADB同樣可以識別到指定Android裝置上！
 
-![&#x5229;&#x7528;&amp;lt;ip\_address&amp;gt;:&amp;lt;port\_number&amp;gt;&#x53D6;&#x4EE3;&amp;lt;device-id&amp;gt;&#x7372;&#x53D6;&#x624B;&#x6A5F;&#x76F8;&#x95DC;&#x8A0A;&#x606F;](.gitbook/assets/qu-de-shou-ji-model.png)
+![&#x4F7F;&#x7528;&amp;lt;ip\_address&amp;gt;:&amp;lt;port\_number&amp;gt;&#x7684;&#x683C;&#x5F0F;&#xFF0C;&#x53D6;&#x4EE3;&amp;lt;device-id&amp;gt;&#x7372;&#x53D6;&#x624B;&#x6A5F;&#x76F8;&#x95DC;&#x8A0A;&#x606F;](.gitbook/assets/qu-de-shou-ji-model.png)
 
 ## 三。中斷連線
 
