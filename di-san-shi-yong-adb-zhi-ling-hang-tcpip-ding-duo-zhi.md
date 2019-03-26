@@ -7,6 +7,14 @@ description: >-
 
 # 第三節：使用ADB指令進行TCP/IP設定多個裝置
 
+
+
+{% hint style="info" %}
+本節參與的Android實體裝置如下：  
+hTC One X  
+Samsung Galaxy Ace 4
+{% endhint %}
+
 第三節開始前，請先確定以下兩點：  
 1. ADB是否已正常運作，第一節已有作詳細說明，也可以參考第一節的懶人包指令。  
 2. 如果曾經使用單一裝置的設定，請使用以下命令中斷所有連線，並且重新啟動ADB服務即可。
@@ -15,10 +23,6 @@ description: >-
 adb kill-server
 adb start-server
 ```
-
-本節參與的Android實體裝置如下：  
-hTC One X  
-Samsung Galaxy Ace 4
 
 ## 一。連接
 
@@ -53,11 +57,20 @@ adb -s <device_id> tcpip <port_number>
 
 ![hTC One X&#x8A2D;&#x5B9A;Listen Debug Port](.gitbook/assets/htc-onexshe-ding-port.png)
 
-注意：如果實體裝置的Port已被佔用的話，輸入的指令後會出現Loading狀態不回應。假如裝置指定的&lt;port\_number&gt;是確定有其他協定在使用，請按Ctrl+C中止，再輸入第二步指令改用其他&lt;port\_number&gt;。如果沒有或者不確定，也請按下Ctrl+C中止，拔除USB裝置後再重新接上，輸入以下指令重新開啟ADB，再次輸入第三步指令：
+{% hint style="warning" %}
+如果實體裝置的Port已被佔用的話，輸入的指令後會出現Loading狀態不回應。
+
+假如裝置指定的&lt;port\_number&gt;是確定有其他協定在使用，請按Ctrl+C中止，再輸入第二步指令改用其他&lt;port\_number&gt;。
+
+如果指定的沒有或者不確定是否有其他網路協定在使用，也請按下Ctrl+C中止，拔除USB裝置後再重新接上，輸入以下指令重新開啟ADB，再次輸入第三步指令：
+{% endhint %}
 
 ```text
 adb kill-server
 adb start-server
+
+//第三步的指令
+db -s <device_id> tcpip <port_number>
 ```
 
 ![hTC One X&#x91CD;&#x65B0;&#x958B;&#x555F;ADB&#x670D;&#x52D9;&#x904E;&#x7A0B;](.gitbook/assets/htc-onexzhong-xin-kai-qi-adb-guo-cheng.png)
