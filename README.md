@@ -2,7 +2,7 @@
 
 GitBook Space URL：[https://waihong7327.gitbook.io/android-studio-wireless-debug-over-wifi](https://waihong7327.gitbook.io/android-studio-wireless-debug-over-wifi)
 
-開發Android APP時候，當你面前有n部手機要進行實機的UI測試，通常往往會發現電腦的USB插口不夠，然後你手上的USB傳輸線卻只有 1 條，難道真的只能一台 ~ 又一台 ~ 再一台手機......慢慢的Debug？先不說Debug麻煩了，你電腦的USB插口一直插插拔拔的，硬件遲早鬆脫兼加速老化。 
+　　開發Android APP時候，當你面前有n部手機要進行實機的UI測試，可是往往會發現電腦的USB插口不夠，然後你手上的USB傳輸線卻只有 1 條，難道真的只能一台 ~ 又一台 ~ 再一台手機......慢慢的Debug？先不說Debug麻煩了，你電腦的USB插口一直插插拔拔的，硬件遲早鬆脫兼加速老化。 
 
 ![&#x5047;&#x5982;&#x4F60;&#x684C;&#x4E0A;&#x6709;&#x5404;&#x7A2E;&#x87A2;&#x5E55;&#x5927;&#x5C0F;&#x7684;Android&#x88DD;&#x7F6E;](.gitbook/assets/image.png)
 
