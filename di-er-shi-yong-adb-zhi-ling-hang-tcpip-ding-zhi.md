@@ -61,7 +61,7 @@ ADB成功使用TCP/IP連接裝置後，會發現這時候Run/Debug/Install專案
 
 ![&#x53EF;&#x9032;&#x884C;IP Address Debug&#x7684;Android&#x5BE6;&#x9AD4;&#x88DD;&#x7F6E;](.gitbook/assets/ke-yong-ipaddressdebug-de-android-shi-ti-zhuang-zhi.png)
 
-![&#x88DD;&#x7F6E;&#x9023;&#x63A5;WiFi&#x4F46;USB&#x4E0D;&#x9023;&#x63A5;PC&#xFF0C;&#x6210;&#x529F;&#x904B;&#x884C;HelloWorld&#xFF01;](.gitbook/assets/img_0030.JPG)
+{% embed url="https://youtu.be/iRrQmfhHyUI" caption="裝置連接WiFi，但USB傳輸線不連接PC，成功運行HelloWorld！" %}
 
 當你的團隊手頭上Android裝置不夠用時候，這種的Debug方式可以間接的解決裝置要借來借去測試App問題，同時開發App時候裝置也可以供他人使用，免受傳輸線綁住的困擾（當然別借到手機不見......）。
 

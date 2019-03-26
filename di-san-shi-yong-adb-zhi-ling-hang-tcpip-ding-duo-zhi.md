@@ -98,9 +98,9 @@ adb -s <device_id> connect <ip_address>
 
 ![&#x53EF;&#x9032;&#x884C;IP Address Debug&#x7684;Samsung Galaxy Ace 4](.gitbook/assets/ke-jin-hang-ip-address-debug-de-samsung-galaxy-ace-4.png)
 
-到這裡為止，第二台的Samsung Galaxy Ace 4已經成功使用TCP/IP連接到ADB了，也就是說多個Android裝置的Wireless Debug的架構環境已經完成了。接下來運行HelloWolrd專案，看是不是能夠使用TCP/IP，在同一時間內直接Wireless Debug兩台裝置！
+到這裡為止，第二台的Samsung Galaxy Ace 4已經成功使用TCP/IP連接到ADB了，也就是說多個Android裝置的Wireless Debug的架構環境已經完成了。接下來運行HelloWolrd專案．
 
-
+{% embed url="https://youtu.be/UHnMBpXd7ao" caption="兩台Android裝置連接WiFi，但USB傳輸線不連接PC，成功運行HelloWorld！" %}
 
 ## 二。IP Address查詢裝置資料
 
