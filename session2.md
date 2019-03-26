@@ -102,6 +102,8 @@ adb connect <ip_address>:<port_number>
 
 因此，下一節將會透過裝置的序列號方式，運行ADB命令的多個WiFi裝置連線。
 
+## 四. 懶人包指令
+
 {% code-tabs %}
 {% code-tabs-item title="第二節懶人包指令" %}
 ```text

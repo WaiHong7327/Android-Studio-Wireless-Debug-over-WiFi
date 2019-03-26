@@ -24,7 +24,7 @@ adb kill-server
 adb start-server
 ```
 
-## 一。連接
+## 一. 連接
 
 　　請先把需要ADB進行TCP/IP連接的Android裝置，用USB連接到電腦上，然後回到Terminal視窗。  
 第一步：輸入以下指令，在已連接ADB裝置列表中取得Android裝置的&lt;device-id&gt;：
@@ -115,7 +115,7 @@ adb -s <device_id> connect <ip_address>
 
 {% embed url="https://youtu.be/UHnMBpXd7ao" caption="兩台Android裝置連接WiFi，但USB傳輸線不連接PC，成功運行HelloWorld！" %}
 
-## 二。IP Address查詢裝置資料
+## 二. IP Address查詢裝置資料
 
 　　&lt;device\_id&gt;在序列中用於識別指定的TCP/IP連接。試想一下，上面的指令都需要使用到&lt;device\_id&gt;，那你現在是否還記得每一台裝置上面的&lt;device\_id&gt;？如果你記得起來，只能說記憶力天賦異稟了，但是我就是做不到。  
 其實當Android裝置執行ADB連線指令：
@@ -136,7 +136,7 @@ adb devices
 
 ![&#x4F7F;&#x7528;&amp;lt;ip\_address&amp;gt;:&amp;lt;port\_number&amp;gt;&#x7684;&#x683C;&#x5F0F;&#xFF0C;&#x53D6;&#x4EE3;&amp;lt;device-id&amp;gt;&#x7372;&#x53D6;&#x624B;&#x6A5F;&#x76F8;&#x95DC;&#x8A0A;&#x606F;](.gitbook/assets/qu-de-shou-ji-model.png)
 
-## 三。中斷連線
+## 三. 中斷連線
 
 接下來就是，指令有connect，當然也有disconnect，指令一樣很簡單，&lt;ip\_address&gt;以及&lt;port\_number&gt;上面已經有說明，就不再細說應該都懂的：
 
@@ -144,11 +144,7 @@ adb devices
 adb disconnect <ip_address>:<port_number>
 ```
 
-
-
-
-
-
+## 四. 懶人包指令
 
 {% code-tabs %}
 {% code-tabs-item title="第三節懶人包指令：" %}
