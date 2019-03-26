@@ -155,7 +155,7 @@ adb devices
 //第二步：找出裝置的<ip_address>，一般是以wlan0無線介面為準。
 adb -s <device_id> shell netcfg
 
-//第三步：向指定裝置設定要進行Debug傳輸Port的<port_number>
+//第三步：使用自定義的<port_number>去Listen Debug Port
 adb -s <device_id> tcpip <port_number>
 
 //第四步：使用ADB進行TCP/IP的裝置連線

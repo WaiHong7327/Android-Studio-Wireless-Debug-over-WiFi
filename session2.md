@@ -110,7 +110,7 @@ adb connect <ip_address>:<port_number>
 //Android裝置使用USB傳輸線連接後，使用命令找出裝置的<ip_address>
 adb shell netcfg
 
-//設定目標Android裝置，使用指定的<port_number>去Listen Debug Port
+//設定目標Android裝置，使用自定義的<port_number>去Listen Debug Port
 adb tcpip <port_number>
 
 //對目標Android裝置進行連線
@@ -122,7 +122,7 @@ adb connect <ip_address>:<port_number>
 以下是當有特殊情況下，才需要使用的命令
 ==============================*/
 
-//當目標裝置的<port_number>因主線程阻塞導致沒有回應，並確定該裝置<port_number>是沒有指定程序在使用
+//當目標裝置的<port_number>因主線程阻塞導致沒有回應，並確定該裝置<port_number>沒有指定程序在使用
 //關閉ADB服務
 adb kill-server
 //開啟ADB服務
