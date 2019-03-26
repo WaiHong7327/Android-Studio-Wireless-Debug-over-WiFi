@@ -137,6 +137,8 @@ adb disconnect <ip_address>:<port_number>
 
 
 
+{% code-tabs %}
+{% code-tabs-item title="第三節懶人包指令：" %}
 ```text
 //第一步：使用USB傳輸線連接Android裝置後，使用命令找出<device_id>
 adb devices
@@ -169,4 +171,6 @@ adb tcpip <port_pumber>
 //當需要斷開裝置WiFi的Listen Debug Port，可以使用以下命令
 adb disconnect <ip_address>:<port_number>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
