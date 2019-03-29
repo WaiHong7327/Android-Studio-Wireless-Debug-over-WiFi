@@ -1,14 +1,14 @@
 ---
 description: >-
   此方法為單一裝置的設定，指令非常簡單，但是有TCP/IP主線程執行的缺點，詳情參閱本節的第三點。個人其實不太推薦這個方法，因為會有ADB的TCP/IP線程阻塞的問題，但Google
-  Developer有特意的寫出來，所以還是開這篇進行介紹。
+  Developer有特意的寫出來，所以還是開這篇進行介紹．
 ---
 
 # 第二節：使用ADB指令進行TCP/IP設定單一裝置
 
 {% hint style="info" %}
 本節參與的Android實體裝置如下：  
-hTC One X
+hTC One X　
 {% endhint %}
 
 上一節檢查完ADB正常後，接下來請先把需要進行TCP/IP設定的Android裝置，用USB連接上電腦，也請確定該手機是可以正常Debug Android App的。
